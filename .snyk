@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-RUBY-JQUERYRAILS-565439:
+    - '*':
+        reason: Testing ignore through snyk file
+        expires: 2024-12-05T16:20:25.440Z
+        created: 2024-11-05T16:20:25.442Z
+patch: {}
