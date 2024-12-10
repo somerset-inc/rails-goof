@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 #don't upgrade
-gem "rails", "6.0.0"
+gem "rails", "7.0.0"
 
 ruby "2.6.5"
 
@@ -12,7 +12,7 @@ gem "coffee-rails"
 gem "execjs"
 gem "foreman"
 gem "jquery-fileupload-rails"
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.4.0"
 gem "minitest"
 gem "powder" # Pow related gem
 gem "pry-rails" # not in dev group in case running via prod/staging @ a training
